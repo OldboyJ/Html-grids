@@ -13,6 +13,11 @@ body {
   overflow: hidden;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 /* HEADER */
 header {
   background: #2d2d2d;
@@ -27,4 +32,73 @@ header a {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 16px;
+}
+
+header #branding {
+  float: left;
+}
+
+header #branding h1{
+  margin: 0;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header .highlight, header .current a {
+  color: #E7427E;
+  font-weight: bold;
+}
+
+header a:hover {
+  color: #cccccc;
+  font-weight: bold;
+}
+
+/* SHOWCASE */
+
+#showcase {
+  min-height: 400px;
+  background: url('./img/webdesign-pro.jpg') no-repeat 0 -200px;
+  text-align: center;
+  color: #ffffff;
+}
+
+#showcase h1 {
+  padding: 100px;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+#showcase p {
+  font-size: 20px;
+}
+
+#newsletter {
+  padding: 15px;
+  color: #ffffff;
+  background: #2d2d2d;
+}
+
+#newsletter h1 {
+  float: left;
+}
+
+#newsletter form {
+  float: right;
+  margin-top: 15px;
+}
+
+#newsletter input[type="email"] {
+  padding: 4px;
+  height: 25px;
+  width: 250px;
 }
