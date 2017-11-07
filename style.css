@@ -1,9 +1,30 @@
 body {
-  background-color: #eee;
-
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  background-color: #f4f4f4;
 }
 
-.main-container {
-  margin: 0 auto;
-  ;
+
+/* GLOBAL */
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* HEADER */
+header {
+  background: #2d2d2d;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #E7427E 3px solid;
+}
+
+header a {
+  color: #8e8e88;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
 }
