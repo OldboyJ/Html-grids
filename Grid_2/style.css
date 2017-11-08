@@ -1,0 +1,38 @@
+body {
+  background-color: #eee;
+}
+
+.container {
+  margin: auto;
+  width: 80%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#logo {
+  border: 2px solid blue;
+}
+
+#showcase {
+  height: 100vh;
+  margin-top: 5px;
+}
+
+#showcase .main-left {
+  height: 100vh;
+  width: 30%;
+  float: left;
+  border: 2px solid red;
+}
+
+#showcase .right-nav {
+  height: 100vh;
+  width: 65%;
+  float: right;
+  border: 2px solid red;
+}
+
+#footer {
+  border: 2px solid green;
+  margin-top: 5px;
+}
