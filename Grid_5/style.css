@@ -1,0 +1,39 @@
+body {
+  background-color: #eee;
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.container {
+  position: relative;
+}
+
+#logo {
+  border: 2px solid blue;
+}
+
+.nav-left, .main-right {
+  height: 100vh;
+}
+
+ .nav-left {
+  width: 15%;
+  float: left;
+  border: 2px solid red;
+}
+
+ .main-right {
+  width: 84%;
+  float: right;
+  border: 2px solid red;
+  position: relative;
+}
+
+#footer {
+  float: right;
+  width: 99%;
+  padding-right: 5px;
+  border: 2px solid green;
+  position: absolute;
+  bottom: 0px;
+}
