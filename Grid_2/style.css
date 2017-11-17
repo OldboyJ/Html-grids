@@ -6,27 +6,21 @@ body {
   margin: auto;
   width: 80%;
   height: 100%;
-  overflow: hidden;
 }
 
 #logo {
   border: 2px solid blue;
 }
 
-#showcase {
-  height: 100vh;
-  margin-top: 5px;
-}
-
 #showcase .main-left {
-  height: 100vh;
+  height: 69vh;
   width: 12%;
   float: left;
   border: 2px solid red;
 }
 
 #showcase .right-nav {
-  height: 100vh;
+  height: 69vh;
   width: 85%;
   float: right;
   border: 2px solid red;
@@ -34,5 +28,5 @@ body {
 
 #footer {
   border: 2px solid green;
-  margin-top: 5px;
+  clear: both;
 }
