@@ -1,19 +1,22 @@
 body {
-  background-color: #eee;
-  position: relative;
   margin: 0 auto;
   width: 1080px;
 }
 
-#logo {
-  border: 2px solid #000;
-
-}
-.main-content {
-  border: 2px solid #6f3e33;
+.container {
   height: 100vh;
+}
+
+.header {
+  border: 2px solid #000;
+}
+
+.main-content {
+  height: 80%;
+  border: 2px solid #6f3e33;
   margin: 5px 0px 5px 0px;
 }
-#footer {
+
+.footer {
   border: 2px solid #000;
 }
