@@ -9,22 +9,23 @@ body {
 
 
 .left_nav {
-  height: 92vh;
+  height: 90vh;
   width: 20%;
   border: 1px solid blue;
   float: left;
 }
 
 .main_right {
-  height: 92vh;
+  height: 90vh;
   width: 79%;
   border: 1px solid green;
   float: right;
+  position: relative;
 }
 
 .footer {
   border: 1px solid red;
-  width: 79%;
-  position: fixed;
+  width: 100%;
+  position: absolute;
   bottom: 0;
 }

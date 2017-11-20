@@ -1,38 +1,33 @@
 body {
-  background-color: #eee;
+  margin: 0 auto;
+  width: 100%;
 }
 
-.container {
-  margin: auto;
-  width: 80%;
+.header {
+  border: 1px solid;
+}
+
+.main-wrapper {
+  height: 80vh;
+  border: 1px solid;
+  padding: 1%;
+}
+
+.left {
   height: 100%;
-  overflow: hidden;
+  width: 79%;
+  border: 1px solid red;
+  display: inline-block;
 }
 
-#logo {
-  border: 2px solid blue;
+.right {
+  height: 100%;
+  width: 20%;
+  border: 1px solid violet;
+  display: inline-block;
 }
 
-#showcase {
-  height: 100vh;
-  margin-top: 5px;
-}
-
-#showcase .main-left {
-  height: 100vh;
-  width: 65%;
-  float: left;
-  border: 2px solid red;
-}
-
-#showcase .right-nav {
-  height: 100vh;
-  width: 30%;
-  float: right;
-  border: 2px solid red;
-}
-
-#footer {
-  border: 2px solid green;
-  margin-top: 5px;
+.footer {
+  clear: both;
+  border: 1px solid pink;
 }
